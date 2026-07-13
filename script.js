@@ -16,9 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // 2. AKTIFIN EFEK BUKU MELENGKUNG (StPageFlip)
-    const pageFlip = new St.PageFlip(bookElement, {
-        width: 420, 
-        height: 600, 
+    const pageFlip = new St.PageFlip(bookElement, { 
         size: "stretch", // <--- GANTI "fixed" JADI "stretch"
         minWidth: 315,
         maxWidth: 1000,
